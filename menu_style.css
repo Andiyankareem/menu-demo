@@ -5,7 +5,30 @@ body {
 }
 
 /* Header */
+.head-button {
+  border-style: solid;
+  transition: 2s;
+}
+.main_name {
+  border-style: solid;
+  border-radius: 50px;
+  background: #c49a6c;
+  padding: 10px;
+  
+  
+}
+  
 
+.head-button:hover {
+  border-color: rgb(205, 0, 0) ;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  border-style: solid;
+  border-radius: 10px;
+  padding: 20px;
+  
+  
+}
 .header {
   background: linear-gradient(to right, #3e2c1c, #5a3d2b);
   color: #fdf6e3;
@@ -35,6 +58,7 @@ body {
 
 /* Navigation */
 .nav {
+
   display: flex;
   justify-content: center;
   gap: 1.5rem;
