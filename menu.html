@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demo_menu</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Cairo Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap"
+      rel="stylesheet" />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/menu_style.css" />
+  </head>
+  <body class="bg-[#3e2c1c] text-[#fdf6e3]">
+    <!-- Header -->
+    <header class="header fade-in">
+      <h1 class="text-2xl font-bold tracking-wide">menu_demo</h1>
+      <a href="#contact" class="contact-btn glow">اتصل بنا</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="nav fade-in">
+      <a href="#hookah">أراكيل</a>
+      <a href="#cold">مشروبات باردة</a>
+      <a href="#hot">مشروبات ساخنة</a>
+      <a href="#food">المأكولات </a>
+    </nav>
+
+    <!-- Sections -->
+    <main class="p-6 space-y-16">
+      <!-- Hookah Section -->
+      <section id="hookah" class="fade-in">
+        <h2 class="section-title">أراكيل</h2>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="menu-card">
+            <h3>تفاحتين</h3>
+            <p>نكهة كلاسيكية محبوبة</p>
+            <span>5000 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>عنب نعناع</h3>
+            <p>انتعاش طبيعي</p>
+            <span>6000 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>بريميوم خاص</h3>
+            <p>خلطة فاخرة</p>
+            <span>8000 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>علك نعاع</h3>
+            <p>نكهة العلكة المنعشة</p>
+            <span>2500 د.ع</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cold Drinks Section -->
+      <section id="cold" class="fade-in">
+        <h2 class="section-title">مشروبات باردة</h2>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="menu-card">
+            <h3>موهيتو</h3>
+            <p>ليمون ونعناع منعش</p>
+            <span>4000 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>عصير برتقال طبيعي</h3>
+            <p>طازج ومليء بالفيتامينات</p>
+            <span>3500 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>آيس كوفي</h3>
+            <p>قهوة باردة منعشة</p>
+            <span>4500 د.ع</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Hot Drinks Section -->
+      <section id="hot" class="fade-in">
+        <h2 class="section-title">مشروبات ساخنة</h2>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="menu-card">
+            <h3>قهوة عربية</h3>
+            <p>أصيلة برائحة الهيل</p>
+            <span>3000 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>شاي أسود</h3>
+            <p>مذاق تقليدي دافئ</p>
+            <span>2500 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>لاتيه</h3>
+            <p>حليب وقهوة ناعمة</p>
+            <span>4000 د.ع</span>
+          </div>
+        </div>
+      </section>
+
+      <!--food section-->
+      <section id="#food" class="fade-in">
+        <h2 class="section-title">المأكولات</h2>
+        <div class="grid gap-6 md:grid-cols-2">
+          <div class="menu-card">
+            <h3>وجبة فلافل</h3>
+            <p>ساندويش فلافل + فينكر + صوصات</p>
+            <span>2500 د.ع</span>
+          </div>
+          <div class="menu-card">
+            <h3>لحم بعجين</h3>
+            <p>نكهة اللحم الاصلية</p>
+            <span>3000 د.ع</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="footer fade-in">
+      <h2>اتصل بنا</h2>
+      <p>📍 الموصل، العراق</p>
+      <p>📞 0770-000-0000</p>
+    </footer>
+  </body>
+</html>

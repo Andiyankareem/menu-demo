@@ -1,0 +1,125 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/wood-pattern.png') repeat;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(to right, #3e2c1c, #5a3d2b);
+  color: #fdf6e3;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+/* Contact Button */
+.contact-btn {
+  background: linear-gradient(to right, #c49a6c, #b5895d);
+  color: #3e2c1c;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.glow:hover {
+  box-shadow: 0 0 15px #c49a6c;
+  transform: scale(1.05);
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #c49a6c;
+  color: #3e2c1c;
+  padding: 0.75rem;
+  position: sticky;
+  top: 5rem;
+  z-index: 40;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.nav a {
+  font-weight: 600;
+  transition: 0.3s;
+}
+.nav a:hover {
+  color: #5a3d2b;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #c49a6c;
+  border-bottom: 2px solid #c49a6c;
+  display: inline-block;
+}
+
+/* Menu Cards */
+.menu-card {
+  background: #fdf6e3;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: 0.4s;
+}
+.menu-card:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  cursor: pointer;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+
+}
+.menu-card h3 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #3e2c1c;
+}
+.menu-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+.menu-card span {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: bold;
+  color: #b5895d;
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(to right, #3e2c1c, #5a3d2b);
+  color: #fdf6e3;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+  box-shadow: inset 0 4px 10px rgba(0,0,0,0.5);
+}
+.footer h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeInUp 1s ease forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
